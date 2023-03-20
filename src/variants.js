@@ -19,6 +19,8 @@ export const fadeIn = (direction, type, delay, duration) => {
   };
 };
 
+
+
 export const staggerContainer = (staggerChildren, delayChildren) => {
   return {
     hidden: {},

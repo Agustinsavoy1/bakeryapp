@@ -4,7 +4,7 @@ import { aboutData } from '../data';
 // import motion
 import { motion } from 'framer-motion';
 // import variants
-import { plateVariants, staggerContainer, fadeIn } from '../variants';
+import { staggerContainer, fadeIn} from '../variants';
 
 const About = () => {
   // destructure data
@@ -34,7 +34,7 @@ const About = () => {
           </motion.div>
           {/* image */}
           <motion.div
-            variants={plateVariants}
+            variants={fadeIn('left', 'tween', 0.2, 1.8)}
             className='-mb-[300px] -mr-[186px] z-10'
           >
             <img src={image} alt='' />
